@@ -821,7 +821,7 @@ body:has(.backdrop.is-open) {
   color: #8e8f99;
 }
 
-span.policy-custom {
+.policy-custom {
   width: 16px;
   height: 16px;
   display: inline-flex;
