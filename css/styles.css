@@ -821,10 +821,10 @@ body:has(.backdrop.is-open) {
   color: #8e8f99;
 }
 
-.policy-custom {
+policy-custom span {
+  display: inline-flex;
   width: 16px;
   height: 16px;
-  display: inline-flex;
 
   align-items: center;
   justify-content: center;
