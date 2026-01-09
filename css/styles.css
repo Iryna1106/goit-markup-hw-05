@@ -806,10 +806,6 @@ body:has(.backdrop.is-open) {
   border-color: #4d5ae5;
 }
 
-span.policy-custom {
-  display: inline-flex;
-}
-
 .form-policy {
   margin-bottom: 24px;
 }
@@ -828,6 +824,7 @@ span.policy-custom {
 span.policy-custom {
   width: 16px;
   height: 16px;
+  display: inline-flex;
 
   align-items: center;
   justify-content: center;
@@ -852,7 +849,7 @@ span.policy-custom {
 .policy-checkbox:checked + .policy-label > span.policy-custom {
   background-color: var(--checked-bg);
   border: none;
-  fill: var(--icon-checked-color);
+  fill: var(--cloud);
 }
 
 .policy-checkbox:checked + .policy-label > span.policy-custom .policy-icon {
